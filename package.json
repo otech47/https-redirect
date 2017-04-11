@@ -1,0 +1,29 @@
+{
+  "name": "https-redirect",
+  "version": "1.0.0",
+  "description": "Simple app for catching https requests behind a load balancer and forwarding to the proper domain. Helps with CNAME apex root limitations for most DNS providers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otech47/https-redirect.git"
+  },
+  "keywords": [
+    "https",
+    "dns",
+    "redirect",
+    "cname"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otech47/https-redirect/issues"
+  },
+  "homepage": "https://github.com/otech47/https-redirect#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
